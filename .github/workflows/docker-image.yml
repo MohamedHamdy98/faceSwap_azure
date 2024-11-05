@@ -42,7 +42,7 @@ jobs:
       - name: Build the Docker image
         run: |
           docker buildx build \
-          --file FaceSwap/roop/Dockerfile \
+          --file Dockerfile \
           --tag mohammedhamdy98/face-swap-azure:$(date +%s) \
           --build-arg PYTHON_VERSION=3.8 \
           --build-arg DEBIAN_FRONTEND=noninteractive \
