@@ -19,7 +19,7 @@ gunicorn
 uvicorn
 torch==2.1.0+cu118
 torchaudio==2.1.0+cu118
-torchvision==0.16.2+cu118
+torchvision==0.16.0+cu118
 typing-extensions==4.5.0
 fastapi==0.95.0 
 moviepy==1.0.3
