@@ -24,3 +24,4 @@ typing-extensions==4.5.0
 fastapi==0.95.0 
 moviepy==1.0.3
 gdown==4.6.0  
+python-multipart
