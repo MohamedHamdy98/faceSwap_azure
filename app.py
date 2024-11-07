@@ -97,9 +97,10 @@ async def face_swap(
 
         # Convert source image to JPG if needed
         source_path = convert_to_jpg(str(source_path))
-
+        print('before run: ', os.getcwd())
         os.chdir('roop')
         # Prepare and run the face swapping command
+        print('after run:', os.getcwd())
         command = f"python run.py --target {trimmed_video_path} --source {source_path} -o {output_path} --execution-provider cpu --frame-processor face_swapper"
 
         # Execute the face swapping command
